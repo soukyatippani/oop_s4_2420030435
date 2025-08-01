@@ -3,12 +3,11 @@ package wrapperclasses;
 public class BoxingProgran {
 
 	public static void main(String[] args) {
-		        int a = 10;
-		        Integer obj = a; 
-		        int b = obj;
-		        System.out.println("Primitive int: " + a);
-		        System.out.println("Boxed Integer: " + obj);
-		        System.out.println("Unboxed int: " + b);
+		int num = 50;
+        Integer obj = Integer.valueOf(num); 
+
+        System.out.println("Primitive value: " + num);
+        System.out.println("Boxed object value: " + obj);
 		    }
 		
 
